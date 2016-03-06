@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body {
+ background-color: #E4E0E0;
+}
+    hr {
+    border: none;
+	width:370px;
+    background-color: grey;
+        height: 2px;
+   }
+    .block1 {
+	   background:white;
+       width:500px;
+       height:700px;
+       margin:10px auto;
+	   -webkit-box-shadow: 1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+       -moz-box-shadow:    1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+       box-shadow:         1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+}
+    h1 {
+       font-size: 22px;
+       padding-top:20px;
+       text-align:center;
+}
+     p {
+	   padding-left:20px;
+	   font-weight:bold;
+   }
