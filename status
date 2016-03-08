@@ -1,0 +1,81 @@
+[33mcommit 5f89fad4075f00fc1cf03bcd5840544a4628e653[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sun Mar 6 18:04:02 2016 +0400
+
+    added img
+
+[33mcommit 0bc6f79c86966e0b4043f6430bd8965410fbaf71[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sun Mar 6 17:59:26 2016 +0400
+
+    added style.css
+
+[33mcommit 092628f6846e5983d24b70704eedde59a8fdc657[m
+Merge: 13f2195 32b627f
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sun Mar 6 16:54:25 2016 +0400
+
+    Merge branch 'master' of github.com:NataliZakharenko/homework
+
+[33mcommit 32b627f44494fd1542151fe6fb40c76ba418a1af[m
+Author: Natali Zakharenko <jobinet15@gmail.com>
+Date:   Sun Mar 6 16:54:12 2016 +0400
+
+    Add index.html
+
+[33mcommit 34818aebfb9a6a4f8ca74dcde11e82035ec229a2[m
+Author: Natali Zakharenko <jobinet15@gmail.com>
+Date:   Sun Mar 6 16:48:58 2016 +0400
+
+    Delete index1.html
+
+[33mcommit 13f2195d2dfcfb13932d5fbf28a78fe30ca66897[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sun Mar 6 16:46:49 2016 +0400
+
+    delet file
+
+[33mcommit 02b1d0e309a1f1ceab27147a67642cfd2376275d[m
+Merge: 70e37dd cc5e1ad
+Author: Natali Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 19:16:25 2016 +0400
+
+    Merge pull request #1 from NataliZakharenko/header
+    
+    added header
+
+[33mcommit 70e37dd571e4392dc2a8d6dae049243726b5ed31[m
+Author: Natali Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 18:56:03 2016 +0400
+
+    Update index1.html
+
+[33mcommit c35f13a5ea60fe5d1e0d1bdd539122bbefa9cc1d[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 17:30:16 2016 +0400
+
+    added footer
+
+[33mcommit cc5e1ad8ed2a7900c936a90b4680fc3853bfb1a8[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 17:11:28 2016 +0400
+
+    added header
+
+[33mcommit 4287b534246a869b07345bfe823ef8cbdde27f9b[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 16:52:07 2016 +0400
+
+    added second file
+
+[33mcommit 125849b6f9c18628c2c2f0bb14b90016c0947f5c[m
+Author: Nataliya Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 16:43:54 2016 +0400
+
+    first commit
+
+[33mcommit 234afe9e41818cda1869cd2307bb533e12ae7143[m
+Author: Natali Zakharenko <jobinet15@gmail.com>
+Date:   Sat Mar 5 17:59:59 2016 +0400
+
+    Create README.md
