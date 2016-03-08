@@ -6,12 +6,12 @@
      }
 
 .wrapper {
-      background:white;
+	    background:white;
       width:500px;
       height:700px;
       margin: auto;
       padding: 40px;
-      -webkit-box-shadow: 1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+	    -webkit-box-shadow: 1px 0px 10px 0px rgba(48, 50, 50, 0.52);
       -moz-box-shadow:    1px 0px 10px 0px rgba(48, 50, 50, 0.52);
       box-shadow:         1px 0px 10px 0px rgba(48, 50, 50, 0.52);
      }
