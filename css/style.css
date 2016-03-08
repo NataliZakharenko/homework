@@ -1,37 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
-    body {
-      background-color: #E4E0E0;
-     }
+body {
+    background-color: #E4E0E0;
+}
 
 .wrapper {
-	    background:white;
-      width:500px;
-      height:700px;
-      margin: auto;
-      padding: 40px;
-	    -webkit-box-shadow: 1px 0px 10px 0px rgba(48, 50, 50, 0.52);
-      -moz-box-shadow:    1px 0px 10px 0px rgba(48, 50, 50, 0.52);
-      box-shadow:         1px 0px 10px 0px rgba(48, 50, 50, 0.52);
-     }
+	  background:white;
+    width:500px;
+    height:700px;
+    margin: auto;
+    padding: 40px;
+	  -webkit-box-shadow: 1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+    -moz-box-shadow:    1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+    box-shadow:         1px 0px 10px 0px rgba(48, 50, 50, 0.52);
+}
 
- .h1{
-      font-size: 14px;
-      font-weight: bold;
-      text-align:center;
-     }
+.h1 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align:center;
+}
 
-.image{
-      height: auto;
-      weight: 200px;
-      text-align:center;
-    }
+.image {
+    height: auto;
+    weight: 200px;
+    text-align:center;
+}
 
-.block{
-      border-bottom: 2px solid #c8c8c8;
-    }
+.block {
+    border-bottom: 2px solid #c8c8c8;
+}
 
 .block:last-child {
-      border-bottom: none;
-    }
+    border-bottom: none;
+}
