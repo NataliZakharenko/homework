@@ -3,7 +3,7 @@
 
 body {
   background: #0c739f url('../img/background.png') left top repeat-x; ;
-  font-family: Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
 }
 .container {
   position: relative;
@@ -27,10 +27,10 @@ line-height: 1.5;
 
 /*Меню с картинками*/
 
-
 .menucontries li {
 	float: right;
 	margin-right: 5px;
+  margin-top:-30px;
 }
 .menucontries li a {
 	display: block;
@@ -122,10 +122,12 @@ h2{
   padding: 5px 20px;
 }
 .info {
+background: #edeef0;
 width: 200px;
 float: left;
 padding-bottom: 20000px;
 margin-bottom: -20000px;
+border-right: 2px solid transparent;
 }
 .article {
 width: 570px;
@@ -134,8 +136,10 @@ padding-bottom: 20000px;
 margin-bottom: -20000px;
 }
 .news {
+background: #edeef0;
 width: 200px;
 float: left;
+border-left: 2px solid transparent;
 padding-bottom: 20000px;
 margin-bottom: -20000px;
 }
