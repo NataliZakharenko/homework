@@ -1,11 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-
 body {
   background: #f9f9f9;
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   }
-
 .container {
   margin: 0 auto;
   padding: 0 45px;
@@ -15,19 +13,17 @@ body {
   -moz-box-shadow:    -1px 0px 11px 0px rgba(50, 50, 50, 0.69);
   box-shadow:         -1px 0px 11px 0px rgba(50, 50, 50, 0.69);
 }
-
 .header {
   padding-top: 50px;
-  margin-bottom: 40px;
 }
 
   /*Главное меню*/
 
 .menu {
   margin-top: 40px;
+  margin-bottom: 40px;
   width : 100%;
   height: 40px;
-  margin: 0 auto 40px auto;
   background: rgb(71, 70, 70);
   -moz-linear-gradient(19deg, rgb(71, 70, 70) 33%, rgb(90, 90, 90) 76%);
   -webkit-linear-gradient(19deg, rgb(71, 70, 70) 33%, rgb(90, 90, 90) 76%);
@@ -35,59 +31,52 @@ body {
   -ms-linear-gradient(19deg, rgb(71, 70, 70) 33%, rgb(90, 90, 90) 76%);
   linear-gradient(109deg, rgb(71, 70, 70) 33%, rgb(90, 90, 90) 76%);
 }
-
-.menu ul{
+.menu ul {
   margin: 0;
 }
-
-.menu li{
+.menu li {
   float: left;
   list-style: none;
 }
-
-.menu a{
+.menu a {
   display: block;
   color: #fff;
   line-height: 40px;
   text-decoration: none;
   padding: 0 40px;
   font-size: 15px;
-  border-left: 2px solid transparent;
-  border-right: 2px solid transparent;
 }
-
 .menu a:hover {
    background: rgb(0, 0, 0);
    background: -webkit-linear-gradient(210deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
    background: -o-linear-gradient(210deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
    background: -ms-linear-gradient(210deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
    background: linear-gradient(210deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+   border-left: 1px solid #c8c8c8;
+   border-right: 1px solid #c8c8c8;
 }
 
   /*левая колонка*/
 
 .left {
-  width:300px;
+  width:230px;
   float:left;
 }
-
 .leftmenu {
   border: 1px solid #c8c8c8;
+  border-top: none;
 }
-
 .leftmenu li {
   border-top: 1px solid #c8c8c8;
 }
-
 .leftmenu a {
-  padding-left: 20px;
-  line-height: 37px;
   color: #656363;
+  padding: 13px 20px;
+  display: block;
   text-decoration: none;
 }
-
-.leftmenu a:hover{
-  padding-left: 35px;
+.leftmenu a:hover {
+  padding: 13px 20px;
   background: #f9f9f9;
   color: #000;
 }
@@ -96,15 +85,12 @@ body {
 
 .content {
    margin:0px;
-   margin-left:310px;
+   margin-left:280px;
 }
-
 .content-img {
    padding: 40px 0;
    border: 1px solid #c8c8c8;
-   text-alight: center;
 }
-
 .img-description {
    padding: 30px 00 20px;
    line-height: 21px;
@@ -115,30 +101,25 @@ body {
 .footer {
    padding: 50px 0;
 }
-
 .footermenu {
    position: relative;
    overflow: hidden;
    background:#e1e1e1;
 }
-
 .footermenu li {
    float: left;
    list-style: none;
    line-height: 40px;
 }
-
 .footermenu a {
    display: block;
    padding: 0 50px;
    color: #000;
    text-decoration: none;
 }
-
-.footermenu a:hover{
+.footermenu a:hover {
   text-decoration: underline;
 }
-
 .footermenu .copiright {
    float:right;
    padding-right: 26px;
