@@ -45,6 +45,8 @@ body {
   text-decoration: none;
   padding: 0 40px;
   font-size: 15px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 .menu a:hover {
    background: rgb(0, 0, 0);
