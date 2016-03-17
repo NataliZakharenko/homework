@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+  margin: 0 auto;
+  height: 541px;
+  border-collapse:collapse;
+}
+td {
+  heigth: 60px;
+  weight: 60px;
+  border: 9px solid #14160e;
+  color: rgba( 0, 0, 0, 0);
+  }
