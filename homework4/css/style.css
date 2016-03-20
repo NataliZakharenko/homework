@@ -9,13 +9,13 @@ body {
   position: relative;
   margin: 0 auto;
   width:1000px;
-  background: white;
+  background: #fff;
   -webkit-box-shadow: -1px 0px 11px 0px rgba(50, 50, 50, 0.69);
   -moz-box-shadow:    -1px 0px 11px 0px rgba(50, 50, 50, 0.69);
   box-shadow:         -1px 0px 11px 0px rgba(50, 50, 50, 0.69);
 }
 .header {
-  margin-bottom: 40px;
+  height: 175px;
 }
 .contact {
   position: absolute;
@@ -23,30 +23,32 @@ body {
   right: 50px;
   color: #5fa5bb;
   line-height: 1.5;
+  font-size: 12px;
 }
 
 /*Меню с картинками*/
-
+.menucontries {
+  margin-top: -60px;
+}
 .menucontries li {
-	float: right;
-	margin-right: 5px;
-  margin-top:-30px;
+   float: right;
+   margin-right: 5px;
 }
 .menucontries li a {
-	display: block;
-	text-align: center;
+  display: block;
+  text-align: center;
   color: #5fa5bb;
   font-size: 10px;
-	width: 60px;
-	height: 40px;
+  width: 60px;
+  height: 40px;
   text-decoration: none;
 }
 .menucontries li a:hover {
-	color: #0000CC;
+  color: #0000CC;
 }
-.centerimg {
-  wight: 100%;
-  padding: 0;
+.header-img {
+  height: 235px;
+  background: url('../img/center-img.png');
 }
 
 /*Menu*/
@@ -86,13 +88,13 @@ ul.menu > li > a {
   text-decoration: none;
 }
 ul.menu > li > a:hover {
-  colot: #89acf3;
+  color: #89acf3;
   background-color: black;
 }
 ul.submenu {
   display: none;
   position: absolute;
-  width: 158px;
+  width:  158px;
   top: 30px;
   left: 0;
   background-color: white;
@@ -124,6 +126,8 @@ ul.menu > li:hover > ul.submenu {
 }
 .content {
   position:relative;
+  background: #fff;
+  height: 100%;
 }
 .content:after {
   content: "";
@@ -165,7 +169,6 @@ h2 {
   float: left;
   padding: 25px;
   box-sizing: border-box;
-  background: #fff;
 }
 .news {
   width: 200px;
