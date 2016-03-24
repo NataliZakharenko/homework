@@ -53,12 +53,14 @@ body {
 
 /*Menu*/
 .menu {
+  position:relative;
   background:rgb(52, 52, 52);
   background: -webkit-linear-gradient(210deg, rgb(52, 52, 52) 0%, rgb(48, 48, 48) 100%);
   background: -ms-linear-gradient(210deg, rgb(52, 52, 52) 0%, rgb(48, 48, 48) 100%);
   background: linear-gradient(210deg, rgb(52, 52, 52) 0%, rgb(48, 48, 48) 100%);
   box-shadow: 0 4px 10px 0 #000;
   text-decoration: none;
+  z-index: 4;
 }
 ul {
   display: block;
