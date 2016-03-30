@@ -3,30 +3,29 @@
 
 @font-face {
     font-family: 'Helvetica Neue Cyrblack';
-    src: url('fonts/helveticaneuecyr-black-webfont.eot');
-    src: url('fonts/helveticaneuecyr-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/helveticaneuecyr-black-webfont.woff2') format('woff2'),
-         url('fonts/helveticaneuecyr-black-webfont.woff') format('woff'),
-         url('fonts/helveticaneuecyr-black-webfont.ttf') format('truetype');
+    src: url('../fonts/helveticaneuecyr-black-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-black-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-black-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-black-webfont.ttf') format('truetype');
      font-weight: black;
      font-style: black;
 }
 @font-face {
     font-family: 'Helvetica Neue Cyrblack';
-    src: url('fonts/helveticaneuecyr-bold-webfont.eot');
-    src: url('fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
-         url('fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
-         url('fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
      font-weight: bold;
      font-style: bold;
-   }
+}
 body {
   background: url('../img/background.png') 100% 100% no-repeat;
   background-size: cover;
   font-family: "Helvetica Neue Cyrblack";
 }
-
 .clearfix:after {
   content: '';
   clear: both;
@@ -34,31 +33,49 @@ body {
 }
 .nav {
   margin: 0 auto;
-  background: url('../img/menubg.png');
+  background: rgb(7, 78, 140);
+  background: -moz-linear-gradient(30deg, rgb(7, 78, 140) 30%, rgb(7, 79, 141) 70%);
+  background: -webkit-linear-gradient(30deg, rgb(7, 78, 140) 30%, rgb(7, 79, 141) 70%);
+  background: -o-linear-gradient(30deg, rgb(7, 78, 140) 30%, rgb(7, 79, 141) 70%);
+  background: -ms-linear-gradient(30deg, rgb(7, 78, 140) 30%, rgb(7, 79, 141) 70%);
+  background: linear-gradient(120deg, rgb(7, 78, 140) 30%, rgb(7, 79, 141) 70%);
   height: 35px;
   width: 100%;
 }
 .menu ul li a {
   float: right;
-  padding: 10px;
+  padding: 10px 18px;
   color: #60b5ed;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: Tahoma;
   text-decoration: none;
   display: block;
+}
+.menu a{
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
 }
 .menu ul li a:hover {
   font-weight: bold;
   background-color: #4eabda;
   color: white;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+.container {
+  margin-right: 20px;
 }
 .container ul li a {
   float: right;
   padding: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: Tahoma;
   text-decoration: none;
 }
 .grad {
+  width: 180px;
+  padding-right: 15px;
   border: 1px solid rgb(78, 172, 218);
   background: rgb(78, 172, 218);
   background: -moz-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
@@ -66,17 +83,19 @@ body {
   background: -o-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
   background: -ms-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
   background: linear-gradient(148deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
-  }
-  .udrl {
-    text-decoration: underline;
-  }
-  .flag:after {
-    content: url('../img/flag.png');
-    float: right;
-    border-left: 2px solid #4eabda;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
+}
+.udrl {
+  width: 180px;
+  text-decoration: underline;
+}
+.flag:after {
+  content: url('../img/flag.png');
+  float: right;
+  border-left: 1px solid #4eabda;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 8px;
+  padding-left: 18px;
 }
 .wrapper {
   margin: 0;
@@ -99,8 +118,8 @@ body {
   margin-top: 35px;
   margin-bottom: 20px;
 }
-.bold{
-  font-style: bold;
+.bold {
+  font-style: normal;
 }
 button {
   width: 285px;
@@ -157,7 +176,7 @@ button li:last-child {
   color: #cccccc;
   font-size: 14px;
 }
-.content input:hover {
+.content input:focus {
   background: #1b5288;
   box-shadow: 2px -2px 20px #1b5288, -2px 2px 20px #1b5288;
 }
