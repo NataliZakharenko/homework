@@ -73,19 +73,37 @@ body {
   font-family: Tahoma;
   text-decoration: none;
 }
-.grad {
-  width: 180px;
-  padding-right: 15px;
+.grad  {
+  width: 195px;
+  height: 26px;
+  float: right;
+  padding-top: 8px;
+  padding-right: 3px;
+  margin-left: 16px;
+  font-family: tahoma;
   border: 1px solid rgb(78, 172, 218);
-  background: rgb(78, 172, 218);
-  background: -moz-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
-  background: -webkit-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
-  background: -o-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
-  background: -ms-linear-gradient(58deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
-  background: linear-gradient(148deg, rgb(78, 172, 218) 30%, rgb(47, 123, 197) 70%);
+  background: rgb(76, 168, 217);
+  background: -moz-linear-gradient(91deg, rgb(76, 168, 217) 25%, rgb(47, 123, 197) 70%);
+  background: -webkit-linear-gradient(91deg, rgb(76, 168, 217) 25%, rgb(47, 123, 197) 70%);
+  background: -o-linear-gradient(91deg, rgb(76, 168, 217) 25%, rgb(47, 123, 197) 70%);
+  background: -ms-linear-gradient(91deg, rgb(76, 168, 217) 25%, rgb(47, 123, 197) 70%);
+  background: linear-gradient(181deg, rgb(76, 168, 217) 25%, rgb(47, 123, 197) 70%);
 }
-.udrl {
-  width: 180px;
+.ola {
+  display: inline-block;
+  color: #fff;
+  padding-left: 5px;
+}
+.ou {
+  display: inline-block;
+  color: #fff;
+}
+.entras {
+  color: #fff;
+  text-decoration: underline;
+}
+.cadastre {
+  color: #fff;
   text-decoration: underline;
 }
 .flag:after {
@@ -107,6 +125,7 @@ body {
   text-align: center;
   width: 550px;
   background-color: rgba(16, 16, 16, 0.75);
+  padding-bottom: 18px;
 }
 .header {
   padding: 20px;
@@ -121,28 +140,29 @@ body {
 .bold {
   font-style: normal;
 }
-button {
-  width: 285px;
+.button {
+  width: 280px;
+  height: 35px;
+  font-size: 16px;
   border-radius: 5px;
-  margin: 10px;
-  background: linear-gradient(to bottom, #7789b7, #2e4476);
+  margin-top: 36px;
+  margin-left: 135px;
+  background: rgb(59, 87, 152);
+  background: -webkit-linear-gradient(90deg, rgb(59, 87, 152) 29%, rgb(46, 69, 121) 70%);
+  background: -o-linear-gradient(90deg, rgb(59, 87, 152) 29%, rgb(46, 69, 121) 70%);
+  background: -ms-linear-gradient(90deg, rgb(59, 87, 152) 29%, rgb(46, 69, 121) 70%);
+  background: linear-gradient(180deg, rgb(59, 87, 152) 29%, rgb(46, 69, 121) 70%);
   border-color: #7586b1;
 }
-button li {
-  float: left;
-  padding: 5px 7px;
-  font-size: 14px;
-  color: white;
-}
-button li a {
-  text-align: center;
+.fb-btn a {
   text-decoration: none;
-  font-size: 22px;
-  color: white;
 }
-button li:last-child {
-  border-left: 1px solid #7586b1;
-  padding: 10px 33px;
+.fb-btn span {
+  font-weight: bold;
+  color: #fff;
+}
+.icon img {
+  border-right: 2px solid #2e4579;
 }
 .line {
   color: #999999;
@@ -175,6 +195,10 @@ button li:last-child {
   background: #0f0e0e;
   color: #cccccc;
   font-size: 14px;
+  border-bottom: 1px solid #484848;
+  border-left: #000;
+  border-right: #000;
+  border-top: #000;
 }
 .content input:focus {
   background: #1b5288;
@@ -200,5 +224,5 @@ button li:last-child {
 .form p {
   font-size: 11px;
   color: #cccccc;
- padding-bottom: 3px;
+  padding-bottom: 3px;
 }
