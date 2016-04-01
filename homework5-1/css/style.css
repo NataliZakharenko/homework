@@ -171,10 +171,9 @@ body {
   padding-right: 10px;
   border-right: 2px solid #2e4579;
 }
-.strel img {
-  display: block;
+.arrow  {
   float: right;
-  padding-right: 25px;
+  padding-right: 15px;
 }
 .line {
   color: #999999;
