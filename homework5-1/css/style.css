@@ -42,25 +42,28 @@ body {
   height: 35px;
   width: 100%;
 }
-.menu ul li a {
+.menu ul {
+  margin: 0;
+}
+.menu li  {
   float: right;
-  padding: 10px 18px;
+}
+.menu a {
   color: #60b5ed;
+  padding: 10px 18px;
   font-size: 14px;
   font-family: Tahoma;
   text-decoration: none;
   display: block;
+  border: 1px solid transparent;
+  border: 1px solid transparent;
 }
-.menu a{
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-}
-.menu ul li a:hover {
-  font-weight: bold;
+.menu a:hover {
+  font-size: 14px;
   background-color: #4eabda;
   color: white;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
+  border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 .container {
   margin-right: 20px;
@@ -157,23 +160,26 @@ body {
 .button a {
   display: block;
   text-decoration: none;
-  padding-top: 10px;
+  height: 35px;
   color: #fff;
 }
-.fb-btn span {
+.fb-text  {
+  display: inline-block;
   font-weight: bold;
-  color: #fff;
+  padding-top: 10px;
 }
-.icon img {
+.icon {
   float: left;
+  height: 30px;
   padding-top: 6px;
   padding-left: 13px;
   padding-right: 10px;
   border-right: 2px solid #2e4579;
 }
-.arrow  {
+.arrow {
   float: right;
   padding-right: 15px;
+  margin-top: 10px;
 }
 .line {
   color: #999999;
