@@ -287,10 +287,10 @@ nav.navi img {
 }
 .productleft {
   font-size: 14px;
-  width: 152px;
+  width: 148px;
   height: 27px;
   border: 1px solid #8c969a;
-  border-radius: 15px;
+  border-radius: 12px;
   margin-top: -4px;
   margin-left: -5px;
   margin-bottom: 6px;
@@ -357,6 +357,11 @@ input[type="checkbox"]:checked + label span {
   float: left;
   margin-top: -4px;
 }
+.icon a:hover:before{
+  content: url('../img/a-marker.png');
+  float: left;
+  margin-top: -4px;
+}
 .leftmenu a {
   font-size: 13px;
   padding-bottom: 9px;
@@ -419,7 +424,7 @@ input[type="checkbox"]:checked + label span {
   float: left;
   position: relative;
   margin-top: 29px;
-  padding: 0 10px 0 14px;
+  padding: 0 10px 5px 14px;
 }
 .goods a {
   text-decoration: none;
@@ -447,12 +452,13 @@ input[type="checkbox"]:checked + label span {
 }
 .brandlogo{
   text-align: center;
-  padding-top: 26px;
+  padding-top: 35px;
 }
 .footer{
   width: 910px;
   height: 100px;
-  margin-left:  45px;
+  margin-left: 45px;
+  margin-top: 10px;
   background-color: #213a4d;
   text-align: center;
 }
