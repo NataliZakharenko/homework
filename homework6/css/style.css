@@ -293,7 +293,7 @@ nav.navi img {
 .product {
   font-size: 14px;
   width: 142px;
-  height: 27px;
+  height: 25px;
   border: 1px solid #8c969a;
   border-radius: 15px;
   margin-bottom: 8px;
@@ -316,7 +316,7 @@ nav.navi img {
   border-radius: 12px;
   margin-top: -3px;
   margin-left: -2px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 }
 .productleft1 img {
   float: left;
@@ -334,7 +334,8 @@ nav.navi img {
   border: 1px solid #8c969a;
   border-radius: 12px;
   margin-left: -2px;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+  margin-top: -1px;
 }
 .productleft2 img {
   float: left;
@@ -352,7 +353,8 @@ nav.navi img {
   border: 1px solid #8c969a;
   border-radius: 12px;
   margin-left: -2px;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
+  margin-top: -2px;
 }
 .productleft3 img {
   float: left;
@@ -408,8 +410,11 @@ input[type="checkbox"]:checked + label span {
 }
 .leftmenu li {
   padding-left: 35px;
-  padding-bottom: 3px;
+  padding-bottom: 9px;
   white-space: nowrap;
+}
+.leftmenu li:last-child {
+  padding-bottom: 0px;
 }
 .leftmenu a:before {
   content:"";
