@@ -252,19 +252,42 @@ nav.navi img {
 }
 .zagolovok p {
   padding: 6px 0 2px 0;
-  font-size: 12px;
+  font-size: 13px;
   color: #114165;
+  white-space: nowrap;
 }
 .zagolovok img {
   float: left;
   padding-right: 2px;
+  margin-top: -2px;
 }
 .zagolovok {
-  width: 170px;
-  border: 1px solid #8c969a;
-  border-radius: 15px;
+  width: 175px;
+  height: 20px;
+  border-radius: 10px;
   padding: 3px;
   margin-bottom: 15px;
+  box-shadow:  0 1px 4px 0 #000;
+}
+.zagolovok1 p {
+  padding: 4px 0 2px 0;
+  font-size: 14px;
+  color: #114165;
+  white-space: nowrap;
+}
+.zagolovok1 img {
+  float: left;
+  padding-right: 2px;
+  margin-top: -3px;
+}
+.zagolovok1 {
+  width: 175px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 3px;
+  margin-bottom: 15px;
+  margin-top:4px;
+  margin-left: -6px;
   box-shadow:  0 1px 4px 0 #000;
 }
 .product {
@@ -285,23 +308,59 @@ nav.navi img {
   padding-left: 4px;
   color: #0c3256;
 }
-.productleft {
+.productleft1 {
   font-size: 14px;
-  width: 148px;
+  width: 150px;
   height: 27px;
   border: 1px solid #8c969a;
   border-radius: 12px;
-  margin-top: -4px;
-  margin-left: -5px;
-  margin-bottom: 6px;
+  margin-top: -3px;
+  margin-left: -2px;
+  margin-bottom: 3px;
 }
-.productleft img {
+.productleft1 img {
   float: left;
   padding-left: 5px;
 }
-.productleft span {
+.productleft1 span {
   display: inline-block;
-  padding-top: 6px;
+  padding-top: 8px;
+  color: #0c3256;
+}
+.productleft2 {
+  font-size: 14px;
+  width: 150px;
+  height: 27px;
+  border: 1px solid #8c969a;
+  border-radius: 12px;
+  margin-left: -2px;
+  margin-bottom: 3px;
+}
+.productleft2 img {
+  float: left;
+  padding-left: 5px;
+}
+.productleft2 span {
+  display: inline-block;
+  padding-top: 8px;
+  color: #0c3256;
+}
+.productleft3 {
+  font-size: 14px;
+  width: 150px;
+  height: 27px;
+  border: 1px solid #8c969a;
+  border-radius: 12px;
+  margin-left: -2px;
+  margin-bottom: 3px;
+}
+.productleft3 img {
+  float: left;
+  padding-left: 5px;
+}
+.productleft3 span {
+  display: inline-block;
+  padding-top: 8px;
   color: #0c3256;
 }
 .button {
@@ -310,8 +369,8 @@ nav.navi img {
   border-radius: 15px;
   color: white;
   font-size: 12px;
-  margin-top: 15px;
-  margin-left: 20px;
+  margin-top: 12px;
+  margin-left: 19px;
   border: 0px;
   background: rgb(31, 101, 133);
   background: -moz-linear-gradient(90deg, rgb(31, 101, 133) 11%, rgb(14, 55, 92) 50%);
@@ -352,23 +411,32 @@ input[type="checkbox"]:checked + label span {
   padding-bottom: 3px;
   white-space: nowrap;
 }
-.icon:before {
-  content: url('../img/marker.png');
+.leftmenu a:before {
+  content:"";
+  background:url('../img/marker.png');
+  background-repeat: no-repeat;
   float: left;
-  margin-top: -4px;
+  margin-top: 1px;
+  width: 8px;
+  height: 8px;
+  padding-left: 5px;
 }
-.icon a:hover:before{
-  content: url('../img/a-marker.png');
+.leftmenu a:hover:before {
+  content:"";
+  margin-top: 1px;
+  width: 8px;
+  height: 8px;
+  background:url('../img/a-marker.png') ;
+  background-repeat: no-repeat;
   float: left;
-  margin-top: -4px;
 }
 .leftmenu a {
   font-size: 13px;
-  padding-bottom: 9px;
+  padding-bottom: 4px;
   color: #465961;
   display: block;
   text-decoration: none;
-  padding-left: 15px;
+
 }
 .leftmenu a:hover {
   color: #0c3256;
