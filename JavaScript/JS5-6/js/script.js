@@ -1,5 +1,4 @@
 var timer = document.querySelector('.timer');
-var digits = document.querySelector('p');
 var miliSec = document.querySelector('span');
 var controlButton = document.querySelector('.start-pause');
 var clearButton = document.querySelector('.clear');
@@ -43,15 +42,7 @@ function StopWatch(elem) {
     elem.querySelector('span').innerHTML = msec;
   };
 
-  //функция определения количества прошедшео времени
-  function delta() {
-    var now = Date.now();
-    var timePassed = now - startTime;
-    startTime = now;
-    return timePassed;
-  };
-
-  //функция вывода времени в нужном формате
+ //функция вывода времени в нужном формате
   function timeFormat(timeInMSec) {
     var newTime = new Date(timeInMSec);
     msec = newTime.getMilliseconds().toString();
