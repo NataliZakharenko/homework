@@ -40,6 +40,7 @@ container.appendChild (header);
 parent.appendChild (container);
 container.appendChild (form);
 form.appendChild (list);
+form.appendChild (button);
 
 for (var i = 0; i < test.question.length; i++) {
   var listItem = document.createElement ('li');
