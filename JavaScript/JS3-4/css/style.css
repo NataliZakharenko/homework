@@ -6,10 +6,18 @@ form {
 	width: 65%;
 }
 h3 {
-	text-align: center;
+	margin-bottom: 35px;
+}
+.container {
+width: 600px;
+margin: 0 auto;
+padding: 0;
+}
+.ol {
+	padding-left: 15px;
 }
 .checkbox {
-    padding-left: 28px;
+    padding-left: 10px;
 }
 .answers input {
 	margin-left: 55px;
@@ -19,8 +27,12 @@ form button {
 	margin-left: 50%;
 	margin-top: 20px;
 }
-label {
+.label {
 	margin-left: 10px;
   font-size: 18px;
   font-weight: normal;
+}
+.button {
+	background: #cfe2f3;
+	margin: 20px 0 0 240px;
 }
