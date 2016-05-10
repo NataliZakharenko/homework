@@ -61,10 +61,7 @@ for (var i = 0; i < test.question.length; i++) {
 
     var label = document.createElement ('label');
       label.htmlFor = test.id [k];
-      label.style.marginLeft = '10px';
-      label.style.fontSize = '18px';
-      label.style.fontWeight = 'normal';
-
+      
     label.appendChild (document.createTextNode(test.answer [k]));
     listItem.appendChild (answer);
     answer.appendChild (checkbox);
