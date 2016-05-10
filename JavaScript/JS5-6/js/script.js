@@ -23,7 +23,7 @@ function clearTimer() {
   controlButton.innerHTML = 'Start';
 }
 
-//конструктор для часов
+
 function StopWatch(elem) {
   var time = 0;
   var interval;
@@ -33,7 +33,7 @@ function StopWatch(elem) {
   var sec;
   var msec;
 
-  //функция определения времени с учетом прошедшего интервала
+  
   function update() {
     time += delta();
     timeFormat(time);
@@ -41,8 +41,14 @@ function StopWatch(elem) {
     elem.querySelector('p').innerHTML = globTime;
     elem.querySelector('span').innerHTML = msec;
   };
+  
+  function delta() {
+      var timePassed = now - startTime;
+      startTime = now;
+      return timePassed;
+    };
 
- //функция вывода времени в нужном формате
+ 
   function timeFormat(timeInMSec) {
     var newTime = new Date(timeInMSec);
     msec = newTime.getMilliseconds().toString();
@@ -66,7 +72,7 @@ function StopWatch(elem) {
     return hour, min, sec, msec;
   };
 
-  this.isOn = false; //переключатель между "старт/пауза"
+  this.isOn = false; 
   this.start = function() {
     if (!this.isOn) {
       interval = setInterval(update, 10);
