@@ -43,6 +43,7 @@ function StopWatch(elem) {
   };
   
   function delta() {
+      var now = Date.now();
       var timePassed = now - startTime;
       startTime = now;
       return timePassed;
